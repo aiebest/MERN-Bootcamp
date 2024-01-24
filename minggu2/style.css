@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-parent {
+  border: 1px solid blue;
+  margin: 20px;
+  min-height: 50px;
+  padding: 20px;
+}
+
+.box-child {
+  border: 1px solid red;
+  min-height: 50px;
+  padding: 20px;
+}
+
+.box-childa {
+  border: 1px solid limegreen;
+  min-height: 50px;
+  padding: 20px;
+  display: flex;
+}
+
+.box-childb {
+  border: 1px solid purple;
+  min-height: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.box-childc {
+  border: 1px solid cyan;
+  min-height: 50px;
+  padding: 20px;
+}
+.box-childd {
+  border: 1px solid orange;
+  min-height: 50px;
+}
