@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Surat Cinta</title>
     <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box
+      } 
+      
+      html {
+  --s: 150px; /* control the size */
+  --c1: #f7d2a1;
+  --c2: #05057e;
+
+  --_g: 
+     var(--c1) 0%  5% ,var(--c2) 6%  15%,var(--c1) 16% 25%,var(--c2) 26% 35%,var(--c1) 36% 45%,
+     var(--c2) 46% 55%,var(--c1) 56% 65%,var(--c2) 66% 75%,var(--c1) 76% 85%,var(--c2) 86% 95%,
+     #0000 96%;
+  background:
+    radial-gradient(50% 50% at 100% 0,var(--_g)),
+    radial-gradient(50% 50% at 0 100%,var(--_g)),
+    radial-gradient(50% 50%,var(--_g)),
+    radial-gradient(50% 50%,var(--_g)) calc(var(--s)/2) calc(var(--s)/2)
+    var(--c1);
+  background-size: var(--s) var(--s);
+}
+
         h1 {
             text-align: center;
             background-color: bisque;
@@ -15,7 +39,7 @@
         }
 
         p   {
-        color: blue;
+        color: #05057e;
         }
 
         .centered {
@@ -29,6 +53,11 @@
          background-color: orange;
          padding: 20px;
         }
+.gambar {
+        width : 80px;
+        height: auto;
+        object-fit:cover
+      }
     </style>
   </head>
   <body>
@@ -61,7 +90,7 @@
         Eaque voluptatibus in minus? Fuga quo eaque, inventore consequuntur odio
         fugiat eum veniam!
       </p>
-      <p style="color: crimson;";"><i>Senarai hadiah:</i></p>
+      <p style="color: crimson"><i>Senarai hadiah:</i></p>
       <ol style="color: purple;">
         <li>bunga</li>
         <li>coklat</li>
@@ -69,14 +98,13 @@
    <p>
       <i><b>Yang Benar Secret admire</b></i>
     </p>
-    <img
+                                
+    <img class= "gambar"
       src="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       alt="Bunga_ros"
-      width="80px"
-      height="auto"
     />
     
-    <blockquote style="color: red;background-color: aqua; border: 2px solid blueviolet;">
+    <blockquote style="color: red;background-color: lime; border: 2px solid blueviolet;">
       <b>P.S:
         <li>Basikal</li>
         <li>Motosikal</li>
