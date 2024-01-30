@@ -14,11 +14,15 @@
 .box-main {
   border: 1px solid red;
   margin: 10px;
-  min-height: 1847px;
+  min-height: 500px;
   padding: 5px;
 }
 
 .item {
-  background-color: aqua;
-  border: 2px solid blue;
+  border: 1px solid blue;
+  justify-content: space-around;
+}
+
+.itema {
+  border: 1px solid orange;
 }
