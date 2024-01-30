@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-parent {
+  border: 1px solid blue;
+  margin: 10px;
+  min-height: 50px;
+  padding: 5px;
+  gap: 0px;
+}
+.box-main {
+  border: 1px solid red;
+  margin: 10px;
+  min-height: 1847px;
+  padding: 5px;
+}
+
+.item {
+  flex-basis: 33.33%;
+  height: 33.33%;
+  border: 1px solid black;
+}
